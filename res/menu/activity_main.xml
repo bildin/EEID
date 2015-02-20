@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	   <item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="100"
+     />
+
+	<item android:id="@+id/menu_settings2"
+		android:icon="@drawable/id_pilet"
+        android:title="@string/menu_settings"
+        android:orderInCategory="100"
+     />
+ 
+     <item android:title="SORT"
+		 android:showAsAction="always">
+		 <menu>
+			 <group android:id="@+id/menu_grp" android:checkableBehavior="none">
+				 <item android:title="A..Z fname"/>
+				 <item android:title="Z..A fname"/>
+				 <item android:title="A..Z lname"/>
+				 <item android:title="Z..A lname"/>
+				 <item android:title="0..9 idcode"/>
+				 <item android:title="9..0 idcode"/>
+			 </group>
+		 </menu>
+	 </item>
+</menu>

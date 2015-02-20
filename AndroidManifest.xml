@@ -1,0 +1,46 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.bildin.eeid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="3"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/id_launcher"
+        android:label="@string/app_name" >
+		
+        <activity
+			android:icon="@drawable/id_launcher"
+            android:name=".MainActivity"
+            android:label="@string/title_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		
+        <activity
+			android:icon="@drawable/sk"
+            android:name=".LDAPResultsActivity"
+            android:label="@string/title_ldap" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eu.bildin.eeid.MainActivity" />
+        </activity>
+		
+        <activity
+			android:icon="@drawable/ppa"
+            android:name=".HTTPResultsActivity"
+            android:label="@string/title_http" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eu.bildin.eeid.MainActivity" />
+        </activity>
+		
+    </application>
+	
+</manifest>

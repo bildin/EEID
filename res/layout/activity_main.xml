@@ -1,0 +1,37 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_id"
+        android:inputType="time"
+		android:completionThreshold="9"
+		android:maxLength="11" />
+
+	<Button
+		android:id="@+id/buttonView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pickDate"
+        android:text="@string/button_date" />
+
+    <Button
+		android:id="@+id/buttonView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="LDAPSearch"
+        android:text="@string/button_search" />
+
+	<Button
+		android:id="@+id/buttonView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="forward"
+        android:text="@string/button_results" />
+		
+</TableLayout>

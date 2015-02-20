@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EEID</string>
+	<string name="button_cancel">Cancel</string>
+	<string name="button_date">Date of birth</string>
+	<string name="button_finish">Finish</string>
+	<string name="button_results">Results</string>
+    <string name="button_search">Search</string>
+    <string name="edit_id">Identity number</string>
+    <string name="menu_settings">Settings</string>
+	<string name="progress_http">HTTP Request</string>
+	<string name="progress_ldap">LDAP Request</string>
+	<string name="progress_done">Done:</string>
+	<string name="progress_verified">Verified:</string>
+    <string name="title_http">Results</string>
+    <string name="title_ldap">Found</string>
+    <string name="title_main">EEID</string>
+</resources>
